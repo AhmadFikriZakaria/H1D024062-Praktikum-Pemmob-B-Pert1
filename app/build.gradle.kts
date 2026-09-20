@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.pemmob.ahmadfikrizakaria"
+    namespace = "com.example.pert3_list"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.pemmob.ahmadfikrizakaria"
+        applicationId = "com.example.pert3_list"
         minSdk = 29
         targetSdk = 37
         versionCode = 1
@@ -39,14 +39,12 @@ dependencies {
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.compose.material3)
-    implementation(libs.androidx.compose.material.icons.extended)
+    implementation("androidx.compose.material:material-icons-extended")
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
-    implementation(libs.androidx.navigation.compose)
-    implementation(libs.androidx.navigation.runtime.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)

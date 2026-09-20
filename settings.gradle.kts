@@ -22,5 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PraktikumPemmob2"
+rootProject.name = "Pert3_list"
 include(":app")
+ 

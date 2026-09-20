@@ -26,3 +26,15 @@ Pada pertemuan pertama, saya membuat halaman pengenalan untuk aplikasi Jualan de
 
 **Kesimpulan Praktikum:**  
 Pada pertemuan kedua, saya menambahkan halaman Hubungi Kami sebagai sarana pengguna mengirimkan masukan. Saya belajar membuat kolom email dan pesan, menambahkan tombol Kirim Pesan, serta mengatur perpindahan halaman dan notifikasi setelah formulir dikirim.
+
+---
+
+## 📝 Tugas Pertemuan 3
+**Tanggal**: Selasa, 15 September 2026
+
+![Tugas Pertemuan 3 - Bagian 1](docs/tugas-3-bagian1.png)
+
+![Tugas Pertemuan 3 - Bagian 2](docs/tugas-3-bagian2.png)
+
+**Kesimpulan Praktikum:**  
+Pada pertemuan ketiga, saya mempelajari cara menampilkan data produk secara dinamis menggunakan data class, dummy data, `LazyRow`, dan `LazyVerticalGrid`. Aplikasi juga dilengkapi pilihan kategori sehingga daftar produk dapat disaring, sementara setiap kartu produk memberikan respons Toast ketika dipilih.

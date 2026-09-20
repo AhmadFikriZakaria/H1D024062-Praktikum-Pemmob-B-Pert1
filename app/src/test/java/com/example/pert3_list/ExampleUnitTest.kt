@@ -1,4 +1,4 @@
-package com.pemmob.ahmadfikrizakaria
+package com.example.pert3_list
 
 import org.junit.Test
 
