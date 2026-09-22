@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.pert3_list"
+    namespace = "com.example.praktikumpemmob4"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.pert3_list"
+        applicationId = "com.example.praktikumpemmob4"
         minSdk = 29
         targetSdk = 37
         versionCode = 1
@@ -40,6 +40,7 @@ dependencies {
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.compose.material3)
     implementation("androidx.compose.material:material-icons-extended")
+    implementation("androidx.navigation:navigation-compose:2.9.7")
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)

@@ -1,4 +1,4 @@
-package com.example.pert3_list
+package com.example.praktikumpemmob4
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,7 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.pert3_list.ui.theme.Pert3_listTheme
+import com.example.praktikumpemmob4.ui.theme.Pert3_listTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

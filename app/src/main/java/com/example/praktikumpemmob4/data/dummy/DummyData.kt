@@ -1,7 +1,7 @@
-package com.example.pert3_list.data.dummy
+package com.example.praktikumpemmob4.data.dummy
 
-import com.example.pert3_list.data.model.Category
-import com.example.pert3_list.data.model.Product
+import com.example.praktikumpemmob4.data.model.Category
+import com.example.praktikumpemmob4.data.model.Product
 object DummyData {
     val categories = listOf(
         Category(

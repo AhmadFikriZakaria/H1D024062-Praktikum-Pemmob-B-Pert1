@@ -1,4 +1,4 @@
-package com.example.pert3_list.data.model
+package com.example.praktikumpemmob4.data.model
 
 data class Category(
     val id: Int,

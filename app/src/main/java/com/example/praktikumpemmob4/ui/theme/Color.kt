@@ -1,4 +1,4 @@
-package com.example.pert3_list.ui.theme
+package com.example.praktikumpemmob4.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

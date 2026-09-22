@@ -16,3 +16,5 @@
 .cxx
 local.properties
 *.pdf
+!docs/pdf/
+!docs/pdf/*.pdf
