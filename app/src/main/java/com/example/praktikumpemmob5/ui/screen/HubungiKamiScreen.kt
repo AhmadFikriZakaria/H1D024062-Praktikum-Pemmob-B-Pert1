@@ -1,4 +1,4 @@
-package com.example.praktikumpemmob4.ui.screen
+package com.example.praktikumpemmob5.ui.screen
 
 import android.net.Uri
 import androidx.activity.compose.rememberLauncherForActivityResult
@@ -49,8 +49,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
-import com.example.praktikumpemmob4.R
-import com.example.praktikumpemmob4.ui.theme.Pert3_listTheme
+import com.example.praktikumpemmob5.R
+import com.example.praktikumpemmob5.ui.theme.Praktikumpemmob5Theme
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -320,7 +320,7 @@ fun StatelessFormHubungiKami(
 @Preview(showBackground = true)
 @Composable
 fun HubungiKamiPreview() {
-    Pert3_listTheme(darkTheme = true, dynamicColor = false) {
+    Praktikumpemmob5Theme(darkTheme = true, dynamicColor = false) {
         val navController = rememberNavController()
         Surface(
             modifier = Modifier.fillMaxSize(),

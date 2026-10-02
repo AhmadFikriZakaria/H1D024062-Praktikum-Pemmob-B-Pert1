@@ -54,3 +54,15 @@ Pada pertemuan ketiga, saya mempelajari cara menampilkan data produk secara dina
 
 **Kesimpulan Praktikum:**
 Pada pertemuan keempat, saya menerapkan state hoisting dan recomposition pada form Hubungi Kami. Form tersebut memiliki validasi email dan pesan, pilihan tipe pesan, checkbox persetujuan, pemilihan gambar, serta notifikasi ketika data dikirim. Saya juga menambahkan proses loading pada daftar produk, pencarian, filter kategori, menu navigasi, dan halaman detail produk. Materi ini membantu saya memahami pembagian tanggung jawab state serta alur navigasi antarlayar pada aplikasi Compose.
+
+---
+
+## 📝 Tugas Pertemuan 5
+**Tanggal**: Selasa, 29 September 2026
+
+![Tugas Pertemuan 5 - Daftar Produk](docs/tugas-5-bagian1.png)
+
+![Tugas Pertemuan 5 - Detail Produk](docs/tugas-5-bagian2.png)
+
+**Kesimpulan Praktikum:**
+Pada pertemuan kelima, saya menghubungkan aplikasi dengan API menggunakan Retrofit dan Gson. Data kategori dan produk dimuat melalui `ProductViewModel`, lalu ditampilkan dengan state loading, error, dan success. Daftar produk dapat dicari dan difilter berdasarkan kategori, sedangkan gambar produk dimuat menggunakan Coil. Saya juga menerapkan navigasi ke detail produk dan menampilkan informasi kategori, harga, stok, serta jumlah pembelian.

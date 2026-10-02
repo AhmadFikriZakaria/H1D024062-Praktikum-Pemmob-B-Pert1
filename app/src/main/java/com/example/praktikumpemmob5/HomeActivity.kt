@@ -1,18 +1,20 @@
-package com.example.praktikumpemmob4
+package com.example.praktikumpemmob5
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.example.praktikumpemmob4.ui.screen.DaftarProductScreen
-import com.example.praktikumpemmob4.ui.screen.DetailProductScreen
-import com.example.praktikumpemmob4.ui.screen.HubungiKamiScreen
-import com.example.praktikumpemmob4.ui.theme.Pert3_listTheme
+import com.example.praktikumpemmob5.ui.screen.DaftarProductScreen
+import com.example.praktikumpemmob5.ui.screen.DetailProductScreen
+import com.example.praktikumpemmob5.ui.screen.HubungiKamiScreen
+import com.example.praktikumpemmob5.ui.theme.Praktikumpemmob5Theme
+import com.example.praktikumpemmob5.ui.viewmodel.ProductViewModel
 
 class HomeActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,18 +22,22 @@ class HomeActivity : ComponentActivity() {
         enableEdgeToEdge()
 
         setContent {
-            Pert3_listTheme(
-                darkTheme = true,
+            Praktikumpemmob5Theme(
+                darkTheme = false,
                 dynamicColor = false
             ) {
                 val navController = rememberNavController()
+                val productViewModel: ProductViewModel = viewModel()
 
                 NavHost(
                     navController = navController,
                     startDestination = "daftar_produk"
                 ) {
                     composable(route = "daftar_produk") {
-                        DaftarProductScreen(navController = navController)
+                        DaftarProductScreen(
+                            navController = navController,
+                            viewModel = productViewModel
+                        )
                     }
 
                     composable(
@@ -47,7 +53,8 @@ class HomeActivity : ComponentActivity() {
 
                         DetailProductScreen(
                             productId = productId,
-                            navController = navController
+                            navController = navController,
+                            viewModel = productViewModel
                         )
                     }
 

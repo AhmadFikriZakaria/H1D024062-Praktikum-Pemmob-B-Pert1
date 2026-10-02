@@ -1,4 +1,4 @@
-package com.example.praktikumpemmob4.ui.theme
+package com.example.praktikumpemmob5.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -49,7 +49,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun Pert3_listTheme(
+fun Praktikumpemmob5Theme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,
